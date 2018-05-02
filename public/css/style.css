@@ -1,0 +1,105 @@
+*{font-family: times;}
+
+html, body {
+	margin: 0;
+}
+
+
+.welcome-options {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+.signin-options {
+	text-align: center;
+}
+
+/* ============== Posts ================== */
+.new-post{
+	padding: 16px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.new-post header,
+.posts header{
+	margin-bottom: 20px;
+}
+
+.posts .post{
+	padding-left: 10px;
+	border-left: 3px solid #a22124;
+	margin-bottom: 20px;
+}
+
+.posts .post .info{
+	color: #aaa;
+	font-style: italic;
+}
+.posts .post .interaction{
+	margin-bottom: 20px;
+}
+.posts .post .info p{
+	margin-bottom: -5px;
+}
+.owner-img img{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.owner-name{
+	color: #219ddf;
+}
+.post-image{
+	max-height: 500px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.post-image img{
+	max-width: 100%;
+    max-height: 100%;
+}
+.post-content{
+	margin: 5px 0 20px 0;
+	color: #a22124;
+}
+.comments .singleCom{
+	border-left: 3px solid #449928;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+/* ============ Teacher Home Page ============ */
+.teacher-func a{
+	padding: 1px;
+}
+
+
+/* =========================== */
+.input-group{
+	font-family: times;
+}
+.input-group .input-group-addon {
+	background-color:#fff;
+}
+
+/* ============= Profile Settings  ============== */
+
+.profile-pic{
+	height: 250px;
+	overflow: hidden;
+}
+.profile-pic img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.user-info{
+	min-height: 250px;
+	border: 1px solid #eaeaea;
+}
+
+/* ======== Contactus Messages */
+.msg-container .info{
+	color: #aaa !important;
+	font-style: italic;
+}
